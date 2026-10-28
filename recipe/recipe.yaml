@@ -1,14 +1,14 @@
 context:
   name: cryspy
-  version: "0.18.0"
+  version: "0.19.1"
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/47/6a/b6a9977cc8928096d58b524a4cf779919b413af0ebc14c9586a679746bf0/cryspy-${{ version }}.tar.gz
-  sha256: c0e33311ee3eb56d800198297d850955e9f55ef58596c0836a67036fc520b4d9
+  url: https://files.pythonhosted.org/packages/ce/90/baeecaeb167cfc468c428cc9e9e0adad3265fe1e682314b13aed3b43c657/cryspy-${{ version }}.tar.gz
+  sha256: 59cdc475e5b68b91be1b68b1462d62d431f0646d6f1920b11ced48ba31b42295
 
 build:
   number: 0
